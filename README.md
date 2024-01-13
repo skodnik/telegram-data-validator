@@ -44,7 +44,7 @@ $botToken = "<your-bot-token>";
 $initData = "query_id=AAGk...";
 
 // Validate initData
-$result = \Vlsv\TelegramInitDataValidator\Validator\InitData::isValid($initData, $botToken, true);
+$result = InitData::isValid($initData, $botToken, true);
 
 // Display the validation result
 var_dump($result);
