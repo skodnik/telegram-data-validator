@@ -1,6 +1,14 @@
 {
   "name": "vlsv/telegram-data-validator",
   "description": "The Telegram Data Validator is a PHP library for validating the integrity of initData received from a Telegram mini-application. It uses HMAC-SHA-256 for data integrity checks.",
+  "keywords": [
+    "Telegram",
+    "Telegram bot",
+    "API",
+    "iniData",
+    "WebApp",
+    "SHA-256"
+  ],
   "type": "library",
   "require": {
     "php": "^8.0"
