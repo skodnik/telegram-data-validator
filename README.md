@@ -1,3 +1,5 @@
+![workflow](https://github.com/skodnik/telegram-data-validator/actions/workflows/main.yml/badge.svg)
+
 # Telegram Data Validator
 
 The Telegram Data Validator is a PHP library for validating the integrity of initData received from a Telegram
