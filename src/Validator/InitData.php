@@ -27,6 +27,10 @@ class InitData
      */
     public static function isValid(string $initData, string $botToken, bool $verbose = false): bool|array
     {
+        if ($initData === '') {
+            return $verbose ? ['isValid' => false, 'data' => []] : false;
+        }
+
         $parsed = self::parseInitDataStringToArray($initData);
         $checkString = self::getCheckString($parsed);
 

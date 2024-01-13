@@ -70,6 +70,8 @@ class InitDataValidateTest extends TestCase
             $data[$key] = [$key, trim(file_get_contents($file))];
         }
 
+        $data['empty'] = ['empty', ''];
+
         return $data;
     }
 
